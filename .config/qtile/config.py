@@ -173,7 +173,7 @@ myiconsize=14
 
 screens = [
     Screen(
-        wallpaper='~/Pictures/wallhaven-m3oq1k.jpg',
+        wallpaper='~/Wallpapers/wallhaven-m3oq1k.jpg',
         wallpaper_mode='fill',
         top=bar.Bar(
             [
