@@ -159,7 +159,7 @@ def search():
     qtile.cmd_spawn("rofi -show drun")
 
 def spot():
-    pass
+    qtile.cmd_spawn("qtile cmd-obj -o group 3 -f toscreen")
 
 def power():
     qtile.cmd_spawn("sh -c ~/.config/rofi/scripts/power")
@@ -310,6 +310,7 @@ screens = [
                     fontsize=myiconsize,
                     foreground=accent,
                     padding=None,
+                    mute_command="sh -c ~/.config/qtile/mute.sh",
                 ),
 
                 widget.Volume(
